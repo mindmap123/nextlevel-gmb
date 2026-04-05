@@ -112,13 +112,6 @@ export function Pricing() {
                   ))}
                 </div>
 
-                {/* Message preview */}
-                <div className="w-full rounded-2xl border border-border bg-muted/30 p-5 text-left">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-muted-foreground mb-3">Message pré-rempli</p>
-                  <p className="text-sm text-muted-foreground italic leading-relaxed">
-                    "Bonjour, je souhaite un audit gratuit de ma fiche Google My Business. Mon entreprise est [nom], secteur [activité], ville [ville]."
-                  </p>
-                </div>
               </div>
             </div>
           </div>
