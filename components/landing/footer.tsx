@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react"
+import { MapPin } from "lucide-react"
 
 const navLinks = [
   { label: "Nos services", href: "#features" },
@@ -28,24 +28,6 @@ export function Footer() {
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-background/50">
               L'agence spécialisée en optimisation Google My Business pour les artisans, commerçants et professions libérales qui veulent passer devant leurs concurrents.
             </p>
-            <div className="mt-6 flex flex-col gap-3">
-              <a href="tel:+33600000000" className="inline-flex items-center gap-2.5 text-sm text-background/60 transition-colors hover:text-accent">
-                <Phone className="h-4 w-4 text-accent" />
-                06 00 00 00 00
-              </a>
-              <a href="mailto:contact@nextlevelgmb.fr" className="inline-flex items-center gap-2.5 text-sm text-background/60 transition-colors hover:text-accent">
-                <Mail className="h-4 w-4 text-accent" />
-                contact@nextlevelgmb.fr
-              </a>
-            </div>
-            <div className="mt-6 flex items-center gap-3">
-              <a href="#" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 text-background/50 transition-colors hover:border-accent/40 hover:text-accent">
-                <Instagram className="h-4 w-4" />
-              </a>
-              <a href="#" aria-label="Facebook" className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 text-background/50 transition-colors hover:border-accent/40 hover:text-accent">
-                <Facebook className="h-4 w-4" />
-              </a>
-            </div>
           </div>
 
           {/* Navigation */}
